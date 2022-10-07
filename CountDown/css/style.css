@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #dddddd;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer {
+    padding: 15px 30px;
+    display: inline-block;
+    background: white;
+    border-radius: 14px;
+}
+
+.timer_part {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.timer_btn {
+    font-size: 32px;
+    border: none;
+    margin-left: 14px;
+    background-color: white;
+    color: #8208e6;
+    cursor: pointer;
+}
+
+.timer_btn_start {
+    color: #00b84c;
+}
+
+.timer_btn_stop {
+    color: #ff0256;
+}
